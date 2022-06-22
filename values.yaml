@@ -3,6 +3,9 @@ nameOverride: ""
 fullnameOverride: ""
 imagePullSecrets: []
 
+# enable ebpf
+ebpfEnabled: true
+
 ## Set the appropriate variable to true for your node OS type, if running on GKE
 ## NOTE: DO NOT MODIFY THESE! If you want custom commands, use the`customDaemonsetCmd` attributes
 
